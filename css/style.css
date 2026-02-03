@@ -1,3 +1,17 @@
+/* Backgournd,Botões e Textos */
+
+:root {
+    --background-primary-color: #FFFFFF;
+    --background-secundary-color: #F5F5F5;
+    --background-terciary-color: #000000;
+
+    --button-primary-color: #B81515;
+    --button-primary-color: #8F0101;
+
+    --text-primary-color: #222222;
+    --text-secundary-color: #FFFFFF;
+}
+
 * {
     margin: 0;
     padding: 0;
