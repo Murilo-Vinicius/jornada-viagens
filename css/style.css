@@ -1,15 +1,26 @@
-/* Backgournd,Botões e Textos */
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
+    --primary-color: #B81515;
+    --secundary-color: #8F0101;
+
     --background-primary-color: #FFFFFF;
     --background-secundary-color: #F5F5F5;
     --background-terciary-color: #000000;
 
-    --button-primary-color: #B81515;
-    --button-primary-color: #8F0101;
-
     --text-primary-color: #222222;
     --text-secundary-color: #FFFFFF;
+
+    --header-font-weight: 500;
+    --footer-font-weight: 400;
+
+    --cards-font-weight-big: 700;
+    --cards-font-weight-small: 400;
 }
 
 * {
