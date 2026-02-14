@@ -1,4 +1,4 @@
-header {
+.topbar {
   background-color: var(--background-tertiary-color);
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@ header {
   display: none;
 }
 
-input[type="checkbox"]:checked ~ nav {
+.check-menu:checked ~ .nav-list {
   display: block;
   position: absolute;
   top: 100%;
@@ -30,7 +30,7 @@ input[type="checkbox"]:checked ~ nav {
   background-color: var(--background-tertiary-color);
 }
 
-nav {
+.nav-list {
   display: none;
 }
 
@@ -50,19 +50,19 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  div {
+  .navigation-menu {
     width: 467px;
   }
 
-  label {
+  .label-hamburguer {
     display: none;
   }
 
-  nav {
+  .nav-list {
     display: block;
   }
 
-  ul {
+  .list-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,17 +84,17 @@ nav {
     display: block;
   }
 
-  header {
+  .topbar {
     padding: 38px 120px;
   }
 
-  div a:hover {
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .topbar {
     padding: 38px 160px;
   }
 }
