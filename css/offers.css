@@ -77,3 +77,62 @@
   align-items: center;
   color: var(--text-secundary-color);
 }
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-tokyo,
+  .card-san-andreas,
+  .card-paraiba,
+  .card-manaus {
+    width: 460px;
+    height: 308px;
+  }
+
+  .card-header {
+    margin: 0 0 8px;
+  }
+
+  .location-and-price h2 {
+    font-size: 48px;
+  }
+
+  .location-and-price h3 {
+    font-size: 40px;
+  }
+
+  .card-tokyo {
+    background: url(../img/tokyo-desktop.png) no-repeat;
+  }
+
+  .card-san-andreas {
+    background: url(../img/san-andreas-desktop.png) no-repeat;
+  }
+
+  .card-paraiba {
+    background: url(../img/paraiba-desktop.png) no-repeat;
+  }
+
+  .card-manaus {
+    background: url(../img/manaus-desktop.png) no-repeat;
+  }
+
+  .btn-details:hover {
+    background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card-tokyo,
+  .card-san-andreas,
+  .card-paraiba,
+  .card-manaus {
+    width: 588px;
+  }
+}
