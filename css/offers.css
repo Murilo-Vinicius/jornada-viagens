@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-bottom: 88px;
 }
 
 .card-tokyo,
@@ -32,6 +31,7 @@
   gap: 24px;
   text-align: center;
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .location-and-price h2 {
