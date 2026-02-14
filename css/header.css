@@ -50,7 +50,7 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  div {
+  .navigation-menu {
     width: 467px;
   }
 
@@ -88,7 +88,7 @@ nav {
     padding: 38px 120px;
   }
 
-  div a:hover {
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
