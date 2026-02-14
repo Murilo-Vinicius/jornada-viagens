@@ -1,0 +1,82 @@
+.section-title {
+  padding: 0 70px;
+}
+
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 88px;
+}
+
+.card-nacional,
+.card-internacional,
+.card-transfer,
+.card-viagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secundary-color);
+  border-radius: 8px;
+  gap: 24px;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  padding: 0 4px;
+}
+
+.categories-cards img {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    padding: 0;
+  }
+
+  .categories-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-nacional,
+  .card-internacional,
+  .card-transfer,
+  .card-viagem {
+    width: 220px;
+  }
+
+  .card-nacional:hover,
+  .card-internacional:hover,
+  .card-transfer:hover,
+  .card-viagem:hover {
+    background-color: #f0f0f0;
+  }
+
+  .categories-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card-nacional,
+  .card-internacional,
+  .card-transfer,
+  .card-viagem {
+    width: 280px;
+  }
+}
