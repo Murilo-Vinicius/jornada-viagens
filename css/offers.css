@@ -1,0 +1,79 @@
+.offers-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 88px;
+}
+
+.card-tokyo,
+.card-san-andreas,
+.card-paraiba,
+.card-manaus {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  height: 288px;
+  border-radius: 16px;
+  align-items: center;
+  color: var(--text-secundary-color);
+  justify-content: center;
+}
+
+.card-header {
+  margin: 24px 0 8px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.location-and-price {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.location-and-price h2 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.location-and-price h3 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+}
+
+.card-tokyo {
+  background: url(../img/tokyo.png) no-repeat;
+  background-size: cover;
+}
+
+.card-san-andreas {
+  background: url(../img/san-andreas.png) no-repeat;
+  background-size: cover;
+}
+
+.card-paraiba {
+  background: url(../img/paraiba.png) no-repeat;
+  background-size: cover;
+}
+
+.card-manaus {
+  background: url(../img/manaus.png) no-repeat;
+  background-size: cover;
+}
+
+.btn-details {
+  display: flex;
+  background-color: var(--secundary-color);
+  width: 280px;
+  height: 64px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  justify-content: center;
+  align-items: center;
+  color: var(--text-secundary-color);
+}
