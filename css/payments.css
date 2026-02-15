@@ -1,0 +1,97 @@
+.text-content h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+}
+
+.text-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin-bottom: 24px;
+}
+
+.content-container {
+  margin-top: 64px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 460px;
+  gap: 24px;
+  width: 100%;
+}
+
+.image.first {
+  background: url(../img/mobile-photo-1.png) repeat;
+  background-size: cover;
+}
+
+.image.second {
+  background: url(../img/mobile-photo-2.png) repeat;
+  background-size: cover;
+}
+
+.image.third {
+  background: url(../img/mobile-photo-3.png) repeat;
+  background-size: cover;
+}
+
+.image.third.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .image.first {
+    background: url(../img/tablet-photo-1.png) repeat;
+    background-size: cover;
+  }
+
+  .image.second {
+    background: url(../img/tablet-photo-2.png) repeat;
+    background-size: cover;
+  }
+
+  .image.third {
+    background: url(../img/tablet-photo-3.png) repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image.first {
+    background: url(../img/tablet-photo-1.png) repeat;
+    background-size: cover;
+  }
+
+  .image.second {
+    background: url(../img/tablet-photo-2.png) repeat;
+    background-size: cover;
+  }
+
+  .image.third {
+    background: url(../img/tablet-photo-3.png) repeat;
+    background-size: cover;
+  }
+
+  .text-content p {
+    margin-bottom: 0px;
+  }
+  .content-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content-container {
+    justify-content: space-between;
+  }
+
+  .image-gallery {
+    width: 790px;
+  }
+
+  .text-content {
+    width: 330px;
+  }
+}
