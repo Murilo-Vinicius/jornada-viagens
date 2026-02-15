@@ -6,6 +6,7 @@
   color: var(--text-secundary-color);
   margin: 0;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .rodape-info {
@@ -13,6 +14,14 @@
   flex-direction: column;
   padding: 32px 24px 0 24px;
   text-align: center;
+}
+
+.rodape-info p {
+  font-size: 16px;
+}
+
+.info-second p {
+  font-size: 16px;
 }
 
 .rodape-info img {
@@ -27,32 +36,45 @@
 }
 
 .info-first {
-    width: 312px;
+  width: 312px;
 }
 
 .info-second {
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 .icons-list {
-    display: flex;
-    list-style: none;
-    gap: 10px;
+  display: flex;
+  list-style: none;
+  gap: 10px;
 }
 
 .icons-list li {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 @media screen and (min-width: 768px) {
   .rodape {
     height: 300px;
   }
+
+  .rodape-info {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 60px 0 60px;
+    text-align: center;
+  }
+
+  .info-first {
+    width: 592px;
+    font-size: 20px;
+  }
+
   .rodape-img {
     background: url(../img/footer-tablet.png) no-repeat;
     background-size: cover;
@@ -61,8 +83,28 @@
 
 @media screen and (min-width: 1440px) {
   .rodape {
+    align-items: center;
     height: 232px;
   }
+
+  .rodape-info {
+    padding: 0;
+    margin: 0px 120px;
+    flex-direction: row;
+    text-align: start;
+    align-items: center;
+  }
+
+  .info-first {
+    width: 592px;
+    margin-right: 444px;
+  }
+
+  .info-second {
+    margin-top: 0;
+    gap: 16px;
+  }
+
   .rodape-img {
     background: url(../img/footer-desktop.png) no-repeat;
     height: 600px;
