@@ -73,17 +73,11 @@
     background: url(../img/tablet-photo-3.png) repeat;
     background-size: cover;
   }
-
-  .text-content p {
-    margin-bottom: 0px;
-  }
-  .content-container {
-    display: flex;
-  }
 }
 
 @media screen and (min-width: 1440px) {
   .content-container {
+    display: flex;
     justify-content: space-between;
   }
 
@@ -93,5 +87,6 @@
 
   .text-content {
     width: 330px;
+    margin-bottom: 0px;
   }
 }
