@@ -45,22 +45,22 @@
 }
 
 .card-tokyo {
-  background: url(../img/tokyo.png) no-repeat;
+  background: url(../img/offers-tokyo.png) no-repeat;
   background-size: cover;
 }
 
 .card-san-andreas {
-  background: url(../img/san-andreas.png) no-repeat;
+  background: url(../img/offers-san-andreas.png) no-repeat;
   background-size: cover;
 }
 
 .card-paraiba {
-  background: url(../img/paraiba.png) no-repeat;
+  background: url(../img/offers-paraiba.png) no-repeat;
   background-size: cover;
 }
 
 .card-manaus {
-  background: url(../img/manaus.png) no-repeat;
+  background: url(../img/offers-manaus.png) no-repeat;
   background-size: cover;
 }
 
@@ -108,19 +108,19 @@
   }
 
   .card-tokyo {
-    background: url(../img/tokyo-desktop.png) no-repeat;
+    background: url(../img/offers-tokyo-desktop.png) no-repeat;
   }
 
   .card-san-andreas {
-    background: url(../img/san-andreas-desktop.png) no-repeat;
+    background: url(../img/offers-san-andreas-desktop.png) no-repeat;
   }
 
   .card-paraiba {
-    background: url(../img/paraiba-desktop.png) no-repeat;
+    background: url(../img/offers-paraiba-desktop.png) no-repeat;
   }
 
   .card-manaus {
-    background: url(../img/manaus-desktop.png) no-repeat;
+    background: url(../img/offers-manaus-desktop.png) no-repeat;
   }
 
   .btn-details:hover {

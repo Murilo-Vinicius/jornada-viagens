@@ -23,17 +23,17 @@
 }
 
 .image.first {
-  background: url(../img/mobile-photo-1.png) repeat;
+  background: url(../img/gallery-mobile-first.png) repeat;
   background-size: cover;
 }
 
 .image.second {
-  background: url(../img/mobile-photo-2.png) repeat;
+  background: url(../img/gallery-mobile-second.png) repeat;
   background-size: cover;
 }
 
 .image.third {
-  background: url(../img/mobile-photo-3.png) repeat;
+  background: url(../img/gallery-mobile-third.png) repeat;
   background-size: cover;
 }
 
@@ -43,34 +43,34 @@
 
 @media screen and (min-width: 768px) {
   .image.first {
-    background: url(../img/tablet-photo-1.png) repeat;
+    background: url(../img/gallery-tablet-first.png) repeat;
     background-size: cover;
   }
 
   .image.second {
-    background: url(../img/tablet-photo-2.png) repeat;
+    background: url(../img/gallery-tablet-second.png) repeat;
     background-size: cover;
   }
 
   .image.third {
-    background: url(../img/tablet-photo-3.png) repeat;
+    background: url(../img/gallery-tablet-third.png) repeat;
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .image.first {
-    background: url(../img/tablet-photo-1.png) repeat;
+    background: url(../img/gallery-desktop-first.png) repeat;
     background-size: cover;
   }
 
   .image.second {
-    background: url(../img/tablet-photo-2.png) repeat;
+    background: url(../img/gallery-desktop-second.png) repeat;
     background-size: cover;
   }
 
   .image.third {
-    background: url(../img/tablet-photo-3.png) repeat;
+    background: url(../img/gallery-desktop-third.png) repeat;
     background-size: cover;
   }
 }
