@@ -28,6 +28,7 @@
   left: 0;
   width: 100%;
   background-color: var(--background-tertiary-color);
+  padding: 0 10px;
 }
 
 .nav-list {
